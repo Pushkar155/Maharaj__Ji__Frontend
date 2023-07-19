@@ -1,0 +1,26 @@
+.card{
+    height: 50vh;
+    width: 25vh;
+    margin: 30px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.card>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    /* border: 2px solid orange; */
+
+}
+.card>img:hover{
+    transform: scale(1.05);
+    transition: 150ms;
+}
+@media only screen and (min-width: 300px){
+    .card{
+        margin-top: 150px;
+        height: 30vh;
+        width: 15vh;
+        margin-left: 40px;
+    }
+}

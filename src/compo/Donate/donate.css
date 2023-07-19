@@ -1,0 +1,147 @@
+.dranch_page{
+    height: 100vh;
+    width: 100%;
+}
+.dnavbar{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border-bottom:2px solid orange;
+    border-top:2px solid orange;
+    align-items: center;
+    display: flex;
+}
+.dnavbar__left{
+  height: 10vh;
+  flex:0.45;
+  background-color:orange;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  align-items: center;
+  /* margin: 10px; */
+
+}
+.dnavbar__right{
+  flex:0.55;
+  /* background-color: aqua; */
+  height: 10vh;
+  align-items: center;
+  border-bottom-width:black;
+  /* border-bottom-color: 2px solid orange; */
+}
+.dnavbar__nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10rem;
+}
+.dnavbar__img1{
+  padding-left: 10px;
+}
+.dnavbar__img1>img{
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 5px;
+  border :1px solid white;
+}
+.dnavbar__name{
+  gap:5px;
+}
+.dnavbar__name>h3{
+  color: white;
+}
+.dnavbar__name>h5{
+  color: white;
+}
+.new__dpage{
+    /* height: 90vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:11px;
+}
+.new__dpage>img{
+    width: 50vh;
+    height: 50vh;
+}
+.new__dpage>a>button{
+    width: 6rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.new__dpage>a>button:hover{
+    background-color: rgb(217, 207, 207);
+}
+.nav-link{
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+  /* font-size: larger; */
+}
+.nav-link:hover{
+  color: orange;
+}
+.deoff{
+  color: orange;
+}
+.deoff:hover{
+  cursor: not-allowed;
+}
+
+@media only screen and (min-width: 300px) {
+  .dnavbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .dnavbar__left{
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    width: 100%;
+    background-color: orange;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .dnavbar__right{
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid orange;
+    
+  }
+  .home>video{
+    height: 100%;
+    width: 100%;
+  }
+  .dnavbar__nav{
+    gap: 100px;
+  }
+  .nav-link{
+    font-size: 10px;
+  }
+  .deoff{
+    font-size: 10px;
+  }
+  .dnavbar__name>h3{
+    font-size: 17px;
+    color: white;
+  }
+  .new__dpage>img{
+    margin-top: 70px;
+    height: 40vh;
+    width: 40vh;
+  }
+
+}

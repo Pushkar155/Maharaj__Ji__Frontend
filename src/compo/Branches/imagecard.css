@@ -1,0 +1,41 @@
+
+.image__card{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 50vh;
+    height: 35vh;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-bottom: 3px solid orange;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.image__card>img{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    border-radius: 4px;
+}
+.image__card:hover img {
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.image__card>h6{
+    margin-top: 4px;
+    margin-left: 2px;
+}
+@media only screen and (min-width: 300px) {
+    .image__card{
+        height: 15vh;
+        width: 35vh;
+        margin-left:0px;
+        margin-right: 15px;
+        margin-top: 150px;
+        /* margin-bottom: 60px; */
+    }
+    .image__card>h6{
+        font-size: 15px;
+    }
+}

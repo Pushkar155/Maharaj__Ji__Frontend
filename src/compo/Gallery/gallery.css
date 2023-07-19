@@ -1,0 +1,141 @@
+.granch_page{
+    height: 100vh;
+    width:100%
+}
+.gnavbar{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border-bottom:2px solid orange;
+    border-top:2px solid orange;
+    align-items: center;
+    display: flex;
+}
+.gnavbar__left{
+  height: 10vh;
+  flex:0.45;
+  background-color:orange;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  align-items: center;
+  /* margin: 10px; */
+
+}
+.gnavbar__right{
+  flex:0.55;
+  /* background-color: aqua; */
+  height: 10vh;
+  align-items: center;
+  border-bottom-width:black;
+  /* border-bottom-color: 2px solid orange; */
+}
+.gnavbar__nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10rem;
+}
+.gnavbar__img1{
+  padding-left: 10px;
+}
+.gnavbar__img1>img{
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 5px;
+  border :1px solid white;
+}
+.gnavbar__name{
+  gap:5px;
+}
+.gnavbar__name>h3{
+  color: white;
+}
+.gnavbar__name>h5{
+  color: white;
+}
+.goff{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(101, 96, 96);
+}
+.gooff{
+    font-size: 16px;
+    font-weight: bold;
+    color:orange;
+    cursor: pointer;
+  }
+.goff:hover{
+  color: orange;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+.acontainer{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    /* padding: 20px; */
+  }
+
+
+  @media only screen and (min-width: 300px) {
+    .gnavbar{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      z-index: 999;
+    }
+    .gnavbar__left{
+      align-items: center;
+      justify-content: center;
+      flex: 0.5;
+      width: 100%;
+      background-color: orange;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+    .gnavbar__right{
+      align-items: center;
+      justify-content: center;
+      flex: 0.5;
+      width: 100%;
+      background-color: white;
+      border-bottom: 2px solid orange;
+      
+    }
+    .home>video{
+      height: 100%;
+      width: 100%;
+    }
+    .gnavbar__nav{
+      gap: 100px;
+    }
+    .nav-link{
+      font-size: 10px;
+    }
+    .deoff{
+      font-size: 10px;
+    }
+    .gnavbar__name>h3{
+      font-size: 17px;
+      color: white;
+    }
+
+}
+
+  @media only screen and (min-width: 300px) {
+    .acontainer{
+      display: grid;
+      flex-direction: column;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+
+}
+

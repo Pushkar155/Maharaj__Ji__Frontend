@@ -1,0 +1,140 @@
+.eranch_page{
+    height: 100vh;
+    width:100%
+}
+.enavbar{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border-bottom:2px solid orange;
+    border-top:2px solid orange;
+    align-items: center;
+    display: flex;
+}
+.enavbar__left{
+  height: 10vh;
+  flex:0.45;
+  background-color:orange;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  align-items: center;
+  /* margin: 10px; */
+
+}
+.enavbar__right{
+  flex:0.55;
+  /* background-color: aqua; */
+  height: 10vh;
+  align-items: center;
+  border-bottom-width:black;
+  /* border-bottom-color: 2px solid orange; */
+}
+.enavbar__nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10rem;
+}
+.enavbar__img1{
+  padding-left: 10px;
+}
+.enavbar__img1>img{
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 5px;
+  border :1px solid white;
+}
+.enavbar__name{
+  gap:5px;
+}
+.enavbar__name>h3{
+  color: white;
+}
+.enavbar__name>h5{
+  color: white;
+}
+.eoff{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(101, 96, 96);
+}
+.eooff{
+    font-size: 16px;
+    font-weight: bold;
+    color:orange;
+    cursor: pointer;
+  }
+.eoff:hover{
+  color: orange;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+.contaer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(1,1fr); */
+}
+
+
+
+@media only screen and (min-width: 300px) {
+  .enavbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+  }
+  .enavbar__left{
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    width: 100%;
+    background-color: orange;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .enavbar__right{
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid orange;
+    
+  }
+  .home>video{
+    height: 100%;
+    width: 100%;
+  }
+  .enavbar__nav{
+    gap: 100px;
+  }
+  .nav-link{
+    font-size: 10px;
+  }
+  .deoff{
+    font-size: 10px;
+  }
+  .enavbar__name>h3{
+    font-size: 17px;
+    color: white;
+  }
+
+}
+
+@media only screen and (min-width: 300px) {
+  .contaer{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2,1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+  }
+
+}
