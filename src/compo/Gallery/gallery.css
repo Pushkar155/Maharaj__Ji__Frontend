@@ -82,7 +82,7 @@
   }
 
 
-  @media only screen and (min-width: 300px) {
+  @media all  and (max-width: 500px) {
     .gnavbar{
       display: flex;
       flex-direction: column;
@@ -127,7 +127,7 @@
 
 }
 
-  @media only screen and (min-width: 300px) {
+  @media all  and (max-width: 500px) {
     .acontainer{
       display: grid;
       flex-direction: column;

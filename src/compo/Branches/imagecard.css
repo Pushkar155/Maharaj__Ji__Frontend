@@ -26,7 +26,7 @@
     margin-top: 4px;
     margin-left: 2px;
 }
-@media only screen and (min-width: 300px) {
+@media all and (max-width: 500px) {
     .image__card{
         height: 15vh;
         width: 35vh;

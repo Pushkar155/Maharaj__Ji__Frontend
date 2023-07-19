@@ -26,7 +26,7 @@ const Home = () => {
                   <NavLink to="/branches" className="nav-link" > Branches </NavLink>
                   <NavLink to="/gallery" className="nav-link" > Gallery </NavLink>
                   <NavLink to="/events" className="nav-link" > Events </NavLink>
-                  <NavLink to="/donate" className="nav-link" > Donate Us </NavLink>
+                  <NavLink to="/donate" className="nav-link" > Donate </NavLink>
               </div>
           </div>
         </div>

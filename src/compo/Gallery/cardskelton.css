@@ -21,7 +21,7 @@
       opacity: 0.6;
     }
   }
-  @media only screen and (min-width: 300px){
+  @media all and (max-width: 500px){
     .skelton{
         margin-top: 150px;
         height: 30vh;

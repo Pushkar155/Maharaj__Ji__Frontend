@@ -10,6 +10,8 @@
     border-top:2px solid orange;
     align-items: center;
     display: flex;
+    /* position: fixed;
+    z-index: 999; */
 }
 .enavbar__left{
   height: 10vh;
@@ -73,16 +75,16 @@
   /* text-decoration: underline; */
 }
 .contaer{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    /* grid-template-columns: repeat(1,1fr); */
+    grid-template-columns: repeat(2,1fr);
 }
 
 
 
-@media only screen and (min-width: 300px) {
+@media all and (max-width: 500px) {
   .enavbar{
     display: flex;
     flex-direction: column;
@@ -127,7 +129,7 @@
 
 }
 
-@media only screen and (min-width: 300px) {
+@media all and (max-width: 500px) {
   .contaer{
     display: flex;
     flex-direction: column;

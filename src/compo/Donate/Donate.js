@@ -20,7 +20,7 @@ const Donate = () => {
       <div className="dnavbar__right">
           <div className="dnavbar__nav">
               <NavLink to="/" className="nav-link" > Home </NavLink>
-              <h4 className='deoff'>Donate Us</h4>
+              <h4 className='deoff'>Donate</h4>
           </div>
       </div>
     </div>

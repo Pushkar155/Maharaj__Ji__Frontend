@@ -63,7 +63,7 @@
 .navbar__name>h5{
   color: white;
 }
-@media only screen and (min-width: 300px) {
+@media all  and (max-width: 500px) {
     .navbar{
       display: flex;
       flex-direction: column;

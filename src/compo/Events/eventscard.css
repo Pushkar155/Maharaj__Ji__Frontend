@@ -22,7 +22,7 @@
     /* padding-left: 45%; */
     margin-bottom: 10px;
 }
-@media only screen and (min-width: 300px) {
+@media all and (max-width: 500px) {
     .eventscard{
         height: 30vh;
         width: 40vh;
