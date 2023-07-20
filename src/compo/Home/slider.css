@@ -1,6 +1,7 @@
 .slider-container {
     width: 250px;
     border-radius: 10px;
+    /* box-shadow: rgb(253, 135, 8) 0px 3px 8px; */
     /* margin-top:50px ; */
     /* margin: 0 auto; */
     /* padding: 20px; */
@@ -9,8 +10,8 @@
   .slick-slide img {
     width: 100%;
     height: 500px;
-    border-radius: 5px;
-    opacity: 0.9;
+    border-radius: 4px;
+    /* opacity: 1.0; */
   }
   
   .caption {
