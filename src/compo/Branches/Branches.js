@@ -5,6 +5,8 @@ import Imagecard from './Imagecard';
 import {NavLink} from "react-router-dom";
 import { useEffect, useState } from 'react';
 import Sekletonbranch from './Sekletonbranch';
+import ReactAudioPlayer from 'react-audio-player';
+import song from "../../song/siya ram.mp3";
 
 const Branches = () => {
   const [data, setData] = useState([]);
@@ -26,6 +28,11 @@ const Branches = () => {
   };
   return (
         <div className="branch_page">
+          <ReactAudioPlayer
+            src={song}
+            autoPlay
+            loop
+          />
         <div className="bnavbar">
           <div className="bnavbar__left">
                 <div className="bnavbar__img1">

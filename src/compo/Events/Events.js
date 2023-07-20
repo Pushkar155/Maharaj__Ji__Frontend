@@ -5,6 +5,9 @@ import EventsCard from './EventsCard';
 import {NavLink} from "react-router-dom";
 import Skeltonevent from './Skeltonevent';
 import { useEffect, useState } from 'react';
+import ReactAudioPlayer from 'react-audio-player';
+import song from "../../song/siya ram.mp3";
+
 
 const Events = () => {
   const [data, setData] = useState([]);
@@ -27,6 +30,11 @@ const Events = () => {
 
   return (
     <div className="eranch_page">
+        <ReactAudioPlayer
+            src={song}
+            autoPlay
+            loop
+          />
     <div className="enavbar">
       <div className="enavbar__left">
             <div className="enavbar__img1">
