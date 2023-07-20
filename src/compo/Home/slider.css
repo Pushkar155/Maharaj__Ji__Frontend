@@ -1,7 +1,7 @@
 .slider-container {
-    max-width: 250px;
+    width: 250px;
     border-radius: 10px;
-    margin-top:100px ;
+    /* margin-top:50px ; */
     /* margin: 0 auto; */
     /* padding: 20px; */
   }
