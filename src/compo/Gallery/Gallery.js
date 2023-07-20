@@ -32,7 +32,6 @@ const Gallery = () => {
         <ReactAudioPlayer
         src={song}
         autoPlay
-        loop
       />
     <div className="gnavbar">
       <div className="gnavbar__left">
