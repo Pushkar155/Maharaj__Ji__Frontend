@@ -3,7 +3,9 @@ import "./slider2.css";
 
 const Slider2 = () => {
   return (
-    <div>Slider2</div>
+    <div>
+        
+    </div>
   )
 }
 

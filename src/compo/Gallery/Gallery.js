@@ -5,6 +5,8 @@ import Card from './Card';
 import {NavLink} from "react-router-dom";
 import { useEffect, useState } from 'react';
 import CardSkeleton from './CardSkeleton';
+import ReactAudioPlayer from 'react-audio-player';
+import song from "../../song/siya ram.mp3"
 
 const Gallery = () => {  
   const [data, setData] = useState([]);
@@ -27,6 +29,11 @@ const Gallery = () => {
 
   return (
     <div className="granch_page">
+        <ReactAudioPlayer
+        src={song}
+        autoPlay
+        loop
+      />
     <div className="gnavbar">
       <div className="gnavbar__left">
             <div className="gnavbar__img1">

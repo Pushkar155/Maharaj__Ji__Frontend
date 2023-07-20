@@ -3,11 +3,19 @@ import "./donate.css";
 import image from "../../assets/logo_maharaj_ji.jpeg";
 import sample from "../../assets/sample1.jpeg";
 import {NavLink} from "react-router-dom";
+import ReactAudioPlayer from 'react-audio-player';
+import song from "../../song/siya ram.mp3";
 const link="https://docs.google.com/forms/d/e/1FAIpQLSfsM9-Zd1u8_1FeacHhK6Cwt606vRktQYunI40_RdkMK4IKqA/viewform?usp=sf_link";
+
 
 const Donate = () => {
   return (
     <div className="dranch_page">
+      <ReactAudioPlayer
+        src={song}
+        autoPlay
+        loop
+      />
     <div className="dnavbar">
       <div className="dnavbar__left">
             <div className="dnavbar__img1">

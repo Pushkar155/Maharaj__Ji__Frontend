@@ -4,7 +4,7 @@
     background-color: #FFF5E9;
     margin: 60px;
     border-radius: 5px;
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,8 +18,6 @@
     border-radius: 5px;
 }
 .eventscard>h2{
-    /* font-size: xx-large; */
-    /* padding-left: 45%; */
     margin-bottom: 10px;
 }
 @media all and (max-width: 500px) {
@@ -29,10 +27,15 @@
         margin: 50px;
         margin-top: 200px;
         background-color: #FFF5E9;
+        /* border: 2px solid orange; */
+        /* margin-bottom: 20px; */
     }
     .eventscard>img{
         width: 30vh;
         border-radius: 5px;
+    }
+    .eventscard>h2{
+        margin-bottom: 20px;
     }
     /* .eventscard */
 }
