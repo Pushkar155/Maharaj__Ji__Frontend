@@ -132,7 +132,7 @@
     /* grid-template-columns: repeat(2,1fr); */
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 4rem;
   }
 
 }
