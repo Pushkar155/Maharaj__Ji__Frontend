@@ -134,7 +134,7 @@
       grid-template-columns: repeat(2,1fr);
       justify-content: center;
       align-items: center;
-      gap: 5px;
+      gap: 2px;
     }
 
 }

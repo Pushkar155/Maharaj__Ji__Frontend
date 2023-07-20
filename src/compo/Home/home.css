@@ -17,6 +17,8 @@
     border-top:2px solid orange;
     align-items: center;
     display: flex;
+    position: fixed;
+    z-index:999!important ;
 }
 .navbar__left{
   height: 10vh;
@@ -61,6 +63,17 @@
   color: white;
 }
 .navbar__name>h5{
+  color: white;
+}
+.sliderstack{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.sliderstack>h2{
   color: white;
 }
 @media all  and (max-width: 500px) {

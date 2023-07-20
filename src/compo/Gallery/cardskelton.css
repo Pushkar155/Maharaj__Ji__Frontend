@@ -8,7 +8,12 @@
     /* border: 1px solid orange; */
     border-radius: 4px; 
     animation: pulse 1.5s infinite; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
   }
+  
   
   @keyframes pulse {
     0% {
