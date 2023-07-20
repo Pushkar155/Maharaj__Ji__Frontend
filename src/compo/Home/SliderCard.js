@@ -68,7 +68,7 @@ const SliderCard = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1125,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
