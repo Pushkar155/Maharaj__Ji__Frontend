@@ -14,7 +14,6 @@ const Donate = () => {
       <ReactAudioPlayer
         src={song}
         autoPlay
-        loop
       />
     <div className="dnavbar">
       <div className="dnavbar__left">

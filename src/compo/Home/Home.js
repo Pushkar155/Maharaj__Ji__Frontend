@@ -5,8 +5,8 @@ import image from "../../assets/logo_maharaj_ji.jpeg";
 import {NavLink} from "react-router-dom";
 import song from "../../song/siya ram.mp3"
 import ReactAudioPlayer from 'react-audio-player';
-
 import SliderCard from './SliderCard';
+
 
 const Home = () => {
   return (
@@ -14,7 +14,6 @@ const Home = () => {
       <ReactAudioPlayer
         src={song}
         autoPlay
-        loop
       />
      <video  loop autoPlay muted >
       <source src={ved} type="video/mp4"/>
