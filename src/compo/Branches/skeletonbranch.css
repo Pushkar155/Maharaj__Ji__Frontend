@@ -3,7 +3,7 @@
     height: 30vh; 
     cursor: pointer;
     margin-left: 50px;
-    margin : 30px;
+    /* margin : 30px; */
     background-color: #f8e2ca;
     /* border: 1px solid orange; */
     border-radius: 4px; 
@@ -31,8 +31,10 @@
         width: 35vh;
         margin: 0px;
         margin-left:0px;
-        margin-right: 15px;
-        margin-top: 150px;
+        padding-top: 60px; /* Set the height of your navbar here */
+        overflow-y: auto;
+        /* margin-right: 15px; */
+        /* margin-top: 150px; */
         /* margin-bottom: 40px; */
     }
 

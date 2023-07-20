@@ -28,7 +28,7 @@
   }
   @media all and (max-width: 500px){
     .skelton{
-        margin-top: 150px;
+        /* margin-top: 150px; */
         height: 30vh;
         width: 15vh;
         margin-left: 40px;
