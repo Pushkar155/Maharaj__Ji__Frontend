@@ -33,7 +33,6 @@ const Events = () => {
         <ReactAudioPlayer
             src={song}
             autoPlay
-            loop
           />
     <div className="enavbar">
       <div className="enavbar__left">

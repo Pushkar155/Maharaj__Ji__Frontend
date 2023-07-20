@@ -31,7 +31,6 @@ const Branches = () => {
           <ReactAudioPlayer
             src={song}
             autoPlay
-            loop
           />
         <div className="bnavbar">
           <div className="bnavbar__left">
