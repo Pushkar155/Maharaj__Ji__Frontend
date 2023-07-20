@@ -4,6 +4,8 @@ import ved from "./background.mp4"
 import image from "../../assets/logo_maharaj_ji.jpeg";
 import {NavLink} from "react-router-dom";
 
+import SliderCard from './SliderCard';
+
 const Home = () => {
   return (
     <div className='home'>
@@ -30,6 +32,12 @@ const Home = () => {
               </div>
           </div>
         </div>
+        <div className="sliderstack">
+          {/* <h2>गीता के कुछ महत्वपूर्ण श्लोक</h2> */}
+          <SliderCard/>
+        </div>
+        
+        {/* new dezine of home page */}
      </div>
     </div>
   )

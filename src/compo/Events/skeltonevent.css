@@ -8,36 +8,11 @@
     cursor: pointer;
     margin-left: 120px;
     margin : 60px;
-    background-color: #ffffff;
-    gap: 20px;
-    /* border: 1px solid orange; */
-    /* border-radius: 4px;  */
-    /* animation: pulse 1.5s infinite;  */
+    background-color: #f8e2ca;
+    border-radius: 4px; 
+    animation: pulse 1.5s infinite; 
+    color: gray;
   }
-.skevent{
-    width: 60vh;
-    height: 30vh; 
-    padding: 5px;
-    cursor: pointer;
-    margin-left: 120px;
-    /* margin : 60px; */
-    animation: pulse 1.5s infinite;
-    background-color: #f8e2ca;
-    border-radius: 5px;
-}
-.new1{
-    width: 8vh;
-    height: 4vh; 
-    padding: 5px;
-    cursor: pointer;
-    margin-left: 120px;
-    /* margin : 60px; */
-    animation: pulse 1.5s infinite;
-    background-color: #f8e2ca;
-    border-radius: 5px;
-
-}
-
   @keyframes pulse {
     0% {
       opacity: 0.6;
@@ -56,19 +31,5 @@
         width: 40vh;
         margin: 50px;
         margin-top: 200px;
-        gap: 5px;
-        /* background-color: #FFF5E9; */
     }
-    .skevent{
-        width: 30vh;
-        height: 25vh;
-        border-radius: 5px;
-        margin: 50px;
-    }
-    .new1{
-      width: 4vh;
-      height: 2vh;
-      margin-left: 0px;
-    }
-    /* .eventscard */
 }
