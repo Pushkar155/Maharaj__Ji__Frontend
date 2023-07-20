@@ -50,7 +50,7 @@ const Gallery = () => {
       </div>
     </div>
     <div className="acontainer">
-      <CardSkeleton count={10}/>
+      {/* <CardSkeleton count={10}/> */}
       {/* <div className='block'></div> */}
       {isloading && <CardSkeleton count={10}/>}
       {
