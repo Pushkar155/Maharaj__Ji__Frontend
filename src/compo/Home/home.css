@@ -71,7 +71,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* position: fixed; */
+  /* margin-left: 80px; */
+  /* gap: 10px; */
 }
 .sliderstack>h2{
   color: white;
@@ -116,5 +118,10 @@
       font-size: 17px;
       color: white;
     }
-
+    .sliderstack{
+      margin-top: 180px;
+      position: fixed;
+      margin-left: 90px;
+      /* gap: 10px; */
+  }
 }

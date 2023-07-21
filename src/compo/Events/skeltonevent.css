@@ -27,9 +27,9 @@
 
 @media all and (max-width: 500px) {
     .skevent1{
-        height: 30vh;
+        height: 25vh;
         width: 40vh;
         margin: 50px;
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
 }

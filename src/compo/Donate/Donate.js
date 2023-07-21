@@ -36,7 +36,7 @@ const Donate = () => {
         <h2>कृपया दान देने के बाद यह फॉर्म भरें</h2>
         <h2>&#8681;</h2>
         <a href={link} target='_blank'  rel="noreferrer">
-            <button>फॉर्म</button>
+            <button className='button-74'>फॉर्म</button>
         </a>
     </div>
     </div>
