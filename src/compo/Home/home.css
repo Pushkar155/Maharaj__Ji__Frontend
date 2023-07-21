@@ -119,9 +119,13 @@
       color: white;
     }
     .sliderstack{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-top: 180px;
-      position: fixed;
-      /* margin-left: 90px; */
+      /* position: fixed; */
+      margin-left: 50%;
+      margin-right: 50%;
       /* gap: 10px; */
   }
 }
