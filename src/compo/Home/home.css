@@ -123,7 +123,7 @@
       align-items: center;
       justify-content: center;
       margin-top: 180px;
-      /* position: fixed; */
+      position: fixed;
       margin-left: 50%;
       margin-right: 50%;
       /* gap: 10px; */
