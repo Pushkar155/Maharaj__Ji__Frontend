@@ -43,8 +43,8 @@ const Branches = () => {
           </div>
           <div className="bnavbar__right">
               <div className="bnavbar__nav">
-                  <NavLink to="/" className="nav-link" > Home </NavLink>
-                  <h4 className='deoff'>Branches</h4>
+                  <NavLink to="/" className="nav-link" ><h3>Home</h3></NavLink>
+                  <h3 className='deoff'><h3>Branches</h3></h3>
               </div>
           </div>
         </div>

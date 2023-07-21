@@ -44,8 +44,8 @@ const Gallery = () => {
       </div>
       <div className="gnavbar__right">
           <div className="gnavbar__nav">
-              <NavLink to="/" className="nav-link" > Home </NavLink>
-              <h4 className='deoff'>Gallery</h4>
+              <NavLink to="/" className="nav-link" > <h3>Home</h3> </NavLink>
+              <h3 className='deoff'><h3>Gallery</h3></h3>
           </div>
       </div>
     </div>

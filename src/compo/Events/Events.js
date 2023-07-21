@@ -45,8 +45,8 @@ const Events = () => {
       </div>
       <div className="enavbar__right">
           <div className="enavbar__nav">
-              <NavLink to="/" className="nav-link" > Home </NavLink>
-              <h4 className='deoff'>Events</h4>
+              <NavLink to="/" className="nav-link" > <h3>Home</h3> </NavLink>
+              <h3 className='deoff'><h3>Events</h3></h3>
           </div>
       </div>
     </div>
