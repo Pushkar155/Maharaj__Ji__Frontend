@@ -27,6 +27,7 @@
   /* background-color: aqua; */
   height: 10vh;
   align-items: center;
+  justify-content: center;
   border-bottom-width:black;
   /* border-bottom-color: 2px solid orange; */
 }

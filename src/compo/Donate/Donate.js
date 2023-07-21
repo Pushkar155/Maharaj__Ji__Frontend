@@ -26,8 +26,8 @@ const Donate = () => {
       </div>
       <div className="dnavbar__right">
           <div className="dnavbar__nav">
-              <NavLink to="/" className="nav-link" > Home </NavLink>
-              <h4 className='deoff'>Donate</h4>
+              <NavLink to="/" className="nav-link" > <h3>Home</h3> </NavLink>
+              <h3 className='deoff'><h3>Donate</h3></h3>
           </div>
       </div>
     </div>

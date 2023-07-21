@@ -30,11 +30,11 @@ const Home = () => {
           </div>
           <div className="navbar__right">
               <div className="navbar__nav">
-                  <h4 className="deoff">Home</h4>
-                  <NavLink to="/branches" className="nav-link" > Branches </NavLink>
-                  <NavLink to="/gallery" className="nav-link" > Gallery </NavLink>
-                  <NavLink to="/events" className="nav-link" > Events </NavLink>
-                  <NavLink to="/donate" className="nav-link" > Donate </NavLink>
+                  <h4 className="deoff"><h3>Home</h3></h4>
+                  <NavLink to="/branches" className="nav-link" > <h3>Branches</h3> </NavLink>
+                  <NavLink to="/gallery" className="nav-link" ><h3>Gallery</h3></NavLink>
+                  <NavLink to="/events" className="nav-link" > <h3>Events</h3> </NavLink>
+                  <NavLink to="/donate" className="nav-link" > <h3>Donate</h3> </NavLink>
               </div>
           </div>
         </div>
