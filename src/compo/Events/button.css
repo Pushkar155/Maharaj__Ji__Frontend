@@ -1,0 +1,63 @@
+.buttons>p{
+    margin-bottom: 100px;
+}
+.button-50 {
+  appearance: button;
+  background-color: orange;
+  background-image: none;
+  border: 1px solid orange;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,grey 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 30px;
+  width: 15px;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, orange 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (max-width: 500px) {
+  .button-50 {
+    height: 20px;
+    width: 10px;
+    /* padding: 12px 50px; */
+  }
+  .buttons>p{
+    font-size: small;
+    /* background-color: red; */
+}
+}

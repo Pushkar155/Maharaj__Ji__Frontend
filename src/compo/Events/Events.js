@@ -7,6 +7,7 @@ import Skeltonevent from './Skeltonevent';
 import { useEffect, useState } from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import song from "../../song/siya ram.mp3";
+// import Addbuttons from './Addbuttons';
 
 
 const Events = () => {
@@ -51,12 +52,14 @@ const Events = () => {
       </div>
     </div>
     <div className="contaer">
+      <div className='block'></div>
     {isloading && <Skeltonevent count={10}/>}
           {
         data.map((item,index)=>(
-          <EventsCard image={item.image} name={item.name}/>
+          <EventsCard image={item.image} name={item.name} text1={item.text}/>
         ))}
     </div>
+    {/* </div> */}
     </div>
   )
 }
