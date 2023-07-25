@@ -4,12 +4,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 270px;
-    height: 100px;
+    width: 250px;
+    height: 120px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    /* border: 1px solid black; */
     transition: 0.3s;
-    padding: 30px 50px;
+    padding: 10px 20px;
     background: #fff;
     cursor: pointer;
     /* margin-right: 30px; */
@@ -17,13 +18,15 @@
   
   .card1:hover {
     height: 150px;
+    background-color: rgb(251, 219, 159);
+    border: 1px solid black;
   }
   
   .imgbox1 {
     position: relative;
     width: 100%;
     height: 100%;
-    transform: translateY(-80px);
+    transform: translateY(-30px);
     z-index: 99;
   }
   
@@ -43,7 +46,9 @@
   
   .card1:hover > .content1 {
     opacity: 1;
-    transform: translateY(-35px);
+    color: rgba(33, 33, 33, 0.968);
+    transform: translateY(-20px);
+    /* background-color: orange; */
   }
   
   .content h2 {
@@ -52,20 +57,9 @@
   
 
 @media all and (max-width: 500px) {
-    .eventscard{
-        height: 30vh;
-        width: 40vh;
-        margin: 50px;
-    }
-    .eventscard>img{
-        width: 100%;
-        height: 20vh;
-        border-radius: 5px;
-    }
-    .eventscard>h2{
-        margin-bottom: 20px;
-    }
-    .button-50.eventscard>img{
-        margin-top: 20px;
+
+    .card1{
+        width: 265px;
+        margin: 20px;
     }
 }
