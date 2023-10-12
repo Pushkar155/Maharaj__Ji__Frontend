@@ -1,0 +1,65 @@
+.anounce{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+@media all  and (max-width: 500px) {
+    .anounce{
+        width: 300px;
+        height: 250px;
+        border: 4px solid transparent;
+        border-image: linear-gradient(90deg, rgb(200, 255, 0), purple, pink, orange) 1;
+        border-image-slice: 1;
+        animation: rotateColors 2s linear infinite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border-radius: 10%; */
+
+        /* border: 3px solid rgb(243, 216, 9); */
+    }
+    .anounce>img{
+        width: 100%;
+        height: 200px;
+        border-radius: 0px;
+        box-shadow: 0 0 0 0;
+        /* border-radius: 10px; */
+
+    }
+    .data{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px;
+    }
+    .data>h6{
+        font-size: 10px;
+    }
+    .data>a{
+        text-decoration: none;
+    }
+    @keyframes rotateColors {
+        0% {
+          border-image-source: linear-gradient(90deg, rgb(249, 245, 13), cyan, magenta, rgb(249, 245, 13));
+        }
+        25% {
+          border-image-source: linear-gradient(90deg, rgb(249, 245, 13), magenta, cyan, rgb(249, 245, 13));
+        }
+        50% {
+          border-image-source: linear-gradient(90deg, rgb(249, 245, 13), teal, magenta, cyan);
+        }
+        75% {
+          border-image-source: linear-gradient(90deg, rgb(249, 245, 13), cyan, magenta, rgb(249, 245, 13));
+        }
+        100% {
+          border-image-source: linear-gradient(90deg, rgb(249, 245, 13), magenta, cyan, rgb(249, 245, 13));
+        }
+      }
+}
