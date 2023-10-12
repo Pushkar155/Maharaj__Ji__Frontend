@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 import song from "../../song/siya ram.mp3"
 import ReactAudioPlayer from 'react-audio-player';
 import SliderCard from './SliderCard';
-
+import Anounce from './anouncement/Anounce';
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <ReactAudioPlayer
         src={song}
         autoPlay
-      />
+      /> 
      <video  loop autoPlay muted >
       <source src={ved} type="video/mp4"/>
      </video>
@@ -40,6 +40,7 @@ const Home = () => {
         </div>
         <div className="sliderstack">
           {/* <h2>गीता के कुछ महत्वपूर्ण श्लोक</h2> */}
+          <Anounce/>
           <SliderCard/>
         </div>
         
