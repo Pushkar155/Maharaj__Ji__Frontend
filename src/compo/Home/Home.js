@@ -11,10 +11,10 @@ import Anounce from './anouncement/Anounce';
 const Home = () => {
   return (
     <div className='home'>
-      <ReactAudioPlayer
+      {/* <ReactAudioPlayer
         src={song}
         autoPlay
-      /> 
+      />  */}
      <video  loop autoPlay muted >
       <source src={ved} type="video/mp4"/>
      </video>
