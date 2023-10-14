@@ -9,7 +9,7 @@ const Anounce = () => {
   useEffect(() => {
     setTimeout(()=>{
       fetchData();
-    },1000);
+    },);
   }, []);
   const fetchData = async () => {
     try {
