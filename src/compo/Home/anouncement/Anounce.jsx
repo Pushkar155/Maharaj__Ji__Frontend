@@ -1,26 +1,46 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import "./anounce.css"
 
 
 const Anounce = () => {
+  const [data, setData] = useState([]);
+  // const [isloading,setIsloading]=useState(true);
+
+  useEffect(() => {
+    setTimeout(()=>{
+      fetchData();
+    },1000);
+  }, []);
+  const fetchData = async () => {
+    try {
+      const response = await fetch('https://maharaj-ji-backend.vercel.app/API/anounce/getAnounce');
+      const jsonData = await response.json();
+      setData(jsonData);
+      // setIsloading(false);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
   return (
-    <div className='anounce'>
-        <img src="https://www.bhaktibharat.com/photo/wishes/gita-jayanti-d.jpeg" alt="" />
+    data.map((item,index)=>(
+      <div className='anounce'>
+        <img src={item.image} alt="" />
         <div className="new">
           <h6>New</h6>
         </div>
         <div className="data">
             <div className="address">
                 <p> Address</p>
-                <h6>भृंगीचक श्री सीताराम दरबार, जमुनहा बाजार, गोपालगंज</h6>
+                <h6>{item.address}</h6>
             </div>
             <div className="location">
-              {/* <p>Location</p> */}
-              <a href='https://maps.app.goo.gl/Ao6MtbG5uDdSJmMV6' rel="noreferrer" target='_blank'>&#128204;</a>
+              <a href={item.map} rel="noreferrer" target='_blank'>&#128204;</a>
             </div>
             
         </div>
     </div>
+    ))
   )
 }
 
